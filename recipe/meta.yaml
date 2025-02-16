@@ -92,12 +92,12 @@ requirements:
   run:
     - libexif
     - imagemagick
-    - openslide
-    - poppler
 
 test:
   commands:
     - vips --version
+    - vips --vips-config
+    - vips --vips-config | grep "libarchive: true"
 
 about:
   home: https://libvips.github.io/libvips
