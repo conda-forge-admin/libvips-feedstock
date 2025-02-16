@@ -1,11 +1,10 @@
 # Notes
 # - `niftiio`, `openexr` are missing
 
-{% set name = "libvips" %}
 {% set version = "8.16.0" %}
 
 package:
-  name: {{ name|lower }}
+  name: libvips
   version: {{ version }}
 
 source:
