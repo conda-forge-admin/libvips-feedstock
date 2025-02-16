@@ -97,7 +97,7 @@ test:
   commands:
     - vips --version
     - vips --vips-config
-    - vips --vips-config | grep "libarchive: true"
+    - vips --vips-config | grep libarchive | grep true
 
 about:
   home: https://libvips.github.io/libvips
