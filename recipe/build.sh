@@ -1,8 +1,6 @@
  #!/usr/bin/env bash
 set -ex
 
-pkg-config --exists --debug libarchive
-
 meson_config_args=(
     -Dintrospection=enabled
     -Dopenslide=enabled
